@@ -1,0 +1,14 @@
+name: Python weather GUI
+
+on: [push]
+
+jobs:
+  build:
+  
+    runs-on: macos-latest
+    
+    steps:
+    -name: Checkout the code
+     uses: actions/checkout@v2
+     
+     
